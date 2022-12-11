@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "git",
+			"path": "../git"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "custom web"
+	}
+}
