@@ -39,3 +39,41 @@ p {
   font-size: 30px;
   color: white;
 }
+
+  /* Header */
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+#nav-title {
+  margin-right: auto;
+  font-size: 1.5em;
+}
+
+header li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 50px;
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: all 0.3s ease 0s;
+  font-size: 18px;
+}
+
+header a:hover {
+  color: #b2dfdb;
+}
+
