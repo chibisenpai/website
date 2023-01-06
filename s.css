@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600&display=swap');
+
+:root {
+    --header-height: 3rem;
+    margin:    0 auto;
+    max-width: 1920px;
+    /* colors */
+    --black:rgb(0, 0, 0);
+    /*========== Font and typography ==========*/
+    --body-font:'Source Code Pro', sans-serif;
+    font-family: var(--body-font);
+    
+
+    background-color: var(--black);
+}
+
+.big-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60;
+  color: white;
+  }
